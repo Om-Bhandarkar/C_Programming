@@ -1,4 +1,4 @@
-// Sum of Array Element
+// Search  Array Element
 #include <stdio.h>
 int main()
 {
