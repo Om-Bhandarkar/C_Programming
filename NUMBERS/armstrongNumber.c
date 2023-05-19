@@ -1,4 +1,5 @@
 //Armstrong Number Or Not
+
 #include<stdio.h>
 void isArmstrong(int num){
     int temp = num;
