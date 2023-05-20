@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<string.h>
 char *mystrcmp(char *str1,char *str2){
     if(*str1 == *str2){
         str1++;
