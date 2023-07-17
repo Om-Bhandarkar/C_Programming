@@ -15,20 +15,17 @@ void main()
     printf("Arrray Size : \n");
     scanf("%d", &size);
     int arr[size];
-    for (int i = 0; i < size; i++)
-    {
+    for (int i = 0; i < size; i++){
         printf("Enter Data At Index %d : ", i);
         scanf("%d", &arr[i]);
     }
     printf("INPUT ARRAY :\n");
-    for (int i = 0; i < size; i++)
-    {
+    for (int i = 0; i < size; i++){
         printf(" %d ", arr[i]);
     }
     reverseArray(arr, size);
     printf("\n\nOUTPUT ARRAY :\n");
-    for (int i = 0; i < size; i++)
-    {
+    for (int i = 0; i < size; i++){
         printf(" %d ", arr[i]);
     }
 }
