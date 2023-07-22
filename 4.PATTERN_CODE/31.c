@@ -7,8 +7,7 @@
 void main(){
     int n ;
     printf("Enter the value : ");
-    scanf("%d",&n);
-    int mid = n / 2 + 1;  
+    scanf("%d",&n);  
     for(int i =1;i<=n;i++){
         for(int j=1;j<=n;j++){
             if(i==j || j==n-i+1){
