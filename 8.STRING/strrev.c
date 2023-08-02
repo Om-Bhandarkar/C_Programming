@@ -1,23 +1,26 @@
-#include<stdio.h>
-char *mystrrev(char *str){
+#include <stdio.h>
+char *mystrrev(char *str)
+{
     char *temp = str;
-    while(*temp != '\0'){
+    while (*temp != '\0')
+    {
         temp++;
     }
     temp--;
-    char x;
-    while(str < temp){
-        x = *str;
+    char ch;
+    while (str < temp)
+    {
+        ch = *str;
         *str = *temp;
-        *temp = x;
+        *temp = ch;
         str++;
         temp--;
     }
     return str;
 }
-void main(){
-    char arr[10] = {'S','e','e','m','a','\0'};
+void main()
+{
+    char arr[10] = {'S', 'e', 'e', 'm', 'a', '\0'};
     mystrrev(arr);
     puts(arr);
-    
 }
