@@ -15,4 +15,3 @@ int main(){
     printf("Union Size = %ld\n",sizeof(obj2));
     return 0;
 }
-  

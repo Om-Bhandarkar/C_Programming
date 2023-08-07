@@ -15,5 +15,5 @@ int main(){
     printf("Jersey No = %d\n",obj2.jerNo);
     printf("Average = %f\n",obj2.avg);
     printf("Player Name = %s\n",obj2.Pname);
-
+    
 }
