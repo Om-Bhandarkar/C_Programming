@@ -1,15 +1,11 @@
-#include<stdio.h>
-#include<stdlib.h>
-
+#include <stdio.h>
 int main(){
-    int number_of_students = 5;
-    int* marks = (int *)malloc(number_of_students * sizeof(int));
-    int student = 0;
-    while(student < number_of_students){
-        scanf("%d", (marks + student));
+    int num = 58612;
+    int sum = 0;
+   
+    while(num != 0){
+        sum += num % 10;
+        num = num/10;
     }
-    student++;
-    printf("%d\n",*marks);
-
-    return 0;
+    printf("Digit sum: %d", sum);
 }
