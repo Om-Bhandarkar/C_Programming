@@ -71,7 +71,7 @@ switch (expression) {
         </section>
     </main>
     <footer>
-        <p>&copy; 2023 Your Name. All rights reserved.</p>
+        <p>&copy; 2023 ombhandarkar1206. All rights reserved.</p>
     </footer>
 </body>
 </html>
