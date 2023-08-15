@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Input-Output Table Example</title>
+    
 </head>
 <body>
     <header>
-        <h1>Input-Output Table Example</h1>
+        <h1>File Handling Method</h1>
     </header>
     <main>
         <table>
