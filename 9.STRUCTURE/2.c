@@ -1,17 +1,10 @@
 #include<stdio.h>
-struct Demo1{
-    int x;
-    float y;
-    double z;
-}obj1;
-union Demo2{
-    int x;
-    float y;
-    double z;
-}obj2;
-
-int main(){
-    printf("Structure size = %ld\n",sizeof(obj1));
-    printf("Union Size = %ld\n",sizeof(obj2));
-    return 0;
+#pragma pack(4)
+struct Node{
+    int data;
+    char name[20];
+    float rev;
+};
+void main(){
+    printf("%ld",sizeof(struct Node));
 }
