@@ -17,9 +17,9 @@ int main()
     int search;
     printf("Enter search : \n");
     scanf("%d", &search);
-    for (int i = 0; i < size; i++)
+    for (int i = 1; i <= size; i++)
     {
-        if (search == arr[i])
+        if (arr[i] == search)
         {
             flag = 1;
         }

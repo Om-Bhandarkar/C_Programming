@@ -14,7 +14,7 @@ void sortAscending(int *arr, int lim)
     }
 }
 
-// Function to print an array
+
 void printArray(int arr[], int size)
 {
     int i;
@@ -23,7 +23,7 @@ void printArray(int arr[], int size)
     printf("\n");
 }
 
-// Driver code
+
 int main()
 {
     int arr[] = {0, 23, 14, 12, 9};
